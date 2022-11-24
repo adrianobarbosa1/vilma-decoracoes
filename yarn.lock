@@ -1313,6 +1313,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/montez@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/montez/-/montez-4.5.10.tgz#b834f4e52443e33776d45864d82a182f3e6cf78e"
+  integrity sha512-TdzBm+790yTrv1C7TFfqJQW44ns1JRmCgecdCwgRd0lT+Gc0IYMsVlrneKgWw3yWV1KQ/667O3BKkljQMC/+vw==
+
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.7.tgz#38aec044c6c828f6ed51d5d7ae3d9b9faf6dbb0f"

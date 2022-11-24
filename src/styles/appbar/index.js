@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material"
+import { Typography, List } from "@mui/material"
 import { styled } from "@mui/material/styles"
 import { Box } from "@mui/system"
 import { Colors } from "../theme"
@@ -17,6 +17,15 @@ export const AppbarHeader = styled(Typography)(() => ({
   padding: "4px",
   flexGrow: 1,
   fontSize: "4em",
-  fontFamily: "'Montez', 'cursive'",
+  fontFamily: '"Montez", "cursive"',
   color: Colors.secondary,
+  border: "1px solid blue",
+}))
+
+export const MyList = styled(List)(({ type }) => ({
+  display: type === "row" ? "flex" : "block",
+  flexgrow: 3,
+  justifyContent: "center",
+  alignItems: "center",
+  border: "1px solid cyan",
 }))
